@@ -1,0 +1,12 @@
+# This repository intentionally ships a benign demo corpus.
+# Format:
+#   label<TAB>payload
+# or:
+#   payload
+
+baseline-homepage	hello-world
+baseline-search	normal-search-term
+sqli-signal	sqli-probe-string
+xss-signal	xss-probe-string
+traversal-signal	traversal-probe-string
+deser-signal	deser-probe-string
